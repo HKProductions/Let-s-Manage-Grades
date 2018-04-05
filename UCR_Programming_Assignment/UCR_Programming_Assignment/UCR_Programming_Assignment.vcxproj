@@ -149,6 +149,7 @@
     <ClInclude Include="..\..\..\Let%27s Manage Grades\UCR_Programming_Assignment\UCR_Programming_Assignment\targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\Let%27s Manage Grades\UCR_Programming_Assignment\UCR_Programming_Assignment\accessDatabase.cpp" />
     <ClCompile Include="..\..\..\Let%27s Manage Grades\UCR_Programming_Assignment\UCR_Programming_Assignment\database.cpp" />
     <ClCompile Include="..\..\..\Let%27s Manage Grades\UCR_Programming_Assignment\UCR_Programming_Assignment\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
