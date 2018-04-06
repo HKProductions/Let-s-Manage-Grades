@@ -101,6 +101,30 @@ void database::randomGPA (string id)
 	}
 }
 
+void database::outputStudentInfo()
+{
+	string firstName;
+	string lastName;
+	string id;
+	vector<double>gpa;
+
+	for (const auto &i : GPA) {
+		gpa.clear();
+
+		for (double v : i.second) {
+			gpa.push_back(v);
+		}
+
+		firstName = ID[i.first];
+		lastName = name[firstName];
+		id = i.first;
+
+		cout << id << " " << firstName << " " << lastName << gpa[0] << " " << gpa[1] << " ";
+		cout << gpa[2] << " " << gpa[3] << " " << gpa[4] << " " << gpa[5] << " " << gpa[6];
+		cout << " " << gpa[7] << " " << gpa[8];
+	}
+}
+
 void database::outputStudentInfoByTri(int trimester)
 {
 	for (const auto &i : this->GPA) {

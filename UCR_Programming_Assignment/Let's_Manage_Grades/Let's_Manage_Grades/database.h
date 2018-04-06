@@ -23,6 +23,7 @@ public:
 	string randomName();
 	string randomID();
 	void randomGPA(string);
+	void outputStudentInfo();
 	void outputStudentInfoByTri(int);
 	void storeStudentInfoByGPATri(int, double);
 	void updateStudentInfo(string, int, double);
